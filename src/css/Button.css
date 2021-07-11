@@ -1,0 +1,37 @@
+button {
+  color: rgb(255, 255, 255);
+  min-width: 6rem;
+  min-height: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.3rem;
+  margin-right: 0.5rem;
+}
+
+button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+#play-pause {
+  background-color: rgb(116, 181, 102);
+  border: 0.1rem solid rgb(103, 171, 99);
+}
+
+#reset {
+  background-color: rgb(230, 175, 95);
+  border: 0.1rem solid rgb(227, 164, 77);
+}
+
+#stop-delete {
+  background-color: rgb(201, 92, 84);
+  border: 0.1rem solid rgb(196, 75, 65);
+}
+
+#add-timer {
+  background-color: rgb(12, 50, 130);
+  border-radius: 0.3rem;
+  font-size: 1.3rem;
+  border: none;
+  box-sizing: content-box;
+}

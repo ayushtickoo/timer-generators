@@ -1,0 +1,12 @@
+#text-container {
+  font-size: 5rem;
+  text-align: left;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5rem;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+#text-container > span {
+  font-size: 3rem;
+}
